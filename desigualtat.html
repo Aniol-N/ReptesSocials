@@ -1,28 +1,90 @@
 <!doctype html>
-<html lang="ca">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Desigualtat social</title>
+    <title>Acceso a vivienda en España</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container">
-        <h1>Desigualtat social</h1>
+        <h1>Acceso a vivienda en España</h1>
         <a href="index.html" class="back-link">⟵ Tornar a l'inici</a>
       </div>
     </header>
 
     <main class="container">
-      <section class="challenge-detail">
-        <img src="" alt="Imatge desigualtat social" class="hero-img" />
-        <article><h3>Impacte sobre les persones</h3><p></p></article>
-        <article><h3>Impacte sobre les empreses</h3><p></p></article>
-        <article><h3>Impacte sobre l'activitat econòmica</h3><p></p></article>
-        <article><h3>Mesures o accions preses</h3><ul><li></li></ul></article>
-        <article><h3>Propostes de mesures</h3><ul><li></li></ul></article>
+      <section class="challenge-detail" aria-labelledby="intro-title">
+        <article id="intro" aria-labelledby="intro-title">
+          <h3 id="intro-title">El acceso a vivienda en España</h3>
+          <img src="imagenes/aniol/copartir.jpg" alt="pareja + casa" class="hero-img-customAniol" />
+          <p>
+            En grandes ciudades como Barcelona o Madrid, el gasto en vivienda representa casi el 20% de los ingresos familiares,
+            siendo uno de los factores principales de generación de pobreza y exclusión social. Muchas familias destinan una parte
+            muy significativa de su sueldo solo para poder pagar el alquiler o la hipoteca, lo que limita su capacidad para cubrir
+            otras necesidades básicas como alimentación, educación y salud.
+          </p>
+        </article>
+
+        <article aria-labelledby="persones-title">
+          <h3 id="persones-title">Impacto sobre las personas</h3>
+          <ul>
+            <li><strong>17,9%</strong> de la población no puede mantener la vivienda a una temperatura adecuada en invierno.</li>
+            <li><strong>10,8%</strong> reside en hogares con falta de espacio.</li>
+            <li>Uno de cada tres menores de 18 años vive en riesgo de pobreza o exclusión.</li>
+            <li>Jóvenes y adultos viviendo en espacios compartidos por varias personas, con efectos sobre salud y bienestar.</li>
+          </ul>
+        </article>
+
+        <article aria-labelledby="empreses-title">
+          <h3 id="empreses-title">Impacto sobre las empresas</h3>
+          <ul>
+            <li>Dificultades para atraer y retener talento joven.</li>
+            <li>Aumento de la rotación laboral debido a la inestabilidad residencial de sus empleados.</li>
+            <li>Costos adicionales relacionados con la movilidad de sus empleados (traslados, compensaciones, reubicación).</li>
+          </ul>
+        </article>
+
+        <article aria-labelledby="eco-title">
+          <h3 id="eco-title">Impacto sobre la actividad económica</h3>
+          <ul>
+            <li>La demanda se concentra en las grandes ciudades, dificultando el desarrollo económico del resto de territorios.</li>
+            <li>Sectores como la construcción se ven afectados por aumento de costos, escasez de mano de obra cualificada y retrasos administrativos.</li>
+          </ul>
+        </article>
+
+        <article aria-labelledby="mesures-title">
+          <h3 id="mesures-title">Medidas de seguridad para minimizar los daños</h3>
+          <ul>
+            <li>Construcción de nuevas viviendas, promoviendo la sostenibilidad y el acceso asequible.</li>
+          </ul>
+        </article>
+
+        <article aria-labelledby="opinio-title">
+          <h3 id="opinio-title">Opinión</h3>
+          <p>
+            Educar a las próximas generaciones para que, en un futuro próximo, tengan los medios, interés y conocimiento necesarios
+            para analizar y tratar de solucionar estos problemas de la mejor forma posible.
+          </p>
+        </article>
+
+        <aside aria-labelledby="biblio-title">
+          <h3 id="biblio-title">Bibliografía</h3>
+          <ul>
+            <li><a href="https://kaosenlared.net/la-espana-de-las-desigualdades-en-2025-crecimiento-economico-y-empobrecimiento-social/" target="_blank">kaosenlared</a></li>
+            <li><a href="https://blog.oxfamintermon.org/desigualdad-social-ejemplos-en-la-vida-cotidiana/" target="_blank">Ingredientes que suman</a></li>
+            <li><a href="https://www.eapnmadrid.org/destacadas/xv-informe-el-estado-de-la-pobreza-2025-comunidad-de-madrid/" target="_blank">EAPN Madrid</a></li>
+            <li><a href="https://www.unfpa.org/es/news/diez-acciones-para-un-mundo-m%C3%A1s-igual" target="_blank">United Nations Population Fund</a></li>
+            <li><a href="https://fundacionsistema.com/crecimiento-y-desigualdad-en-espana/" target="_blank">Fundacionsistema</a></li>
+            <li><a href="https://www.bbva.com/es/sostenibilidad/que-es-la-desigualdad-social-y-cuales-son-sus-consecuencias/" target="_blank">BBVA Noticias</a></li>
+          </ul>
+        </aside>
       </section>
     </main>
+
+    <footer class="site-footer container">
+      <p>Fuente: compilación de fuentes citadas en la bibliografía.</p>
+    </footer>
   </body>
 </html>
