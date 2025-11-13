@@ -1,0 +1,32 @@
+:root{
+  --max-width: 1100px;
+  --gap: 1.5rem;
+  --radius: 16px;
+  --shadow: 0 4px 10px rgba(0,0,0,0.08);
+  --border-color: rgba(0,0,0,0.1);
+  --font-sans: 'Segoe UI', Roboto, sans-serif;
+  --accent: #004080;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:var(--font-sans);background:#f8f9fa;color:#222}
+.container{max-width:var(--max-width);margin:0 auto;padding:1rem}
+
+.site-header{background:#fff;box-shadow:var(--shadow);padding:1rem 0;margin-bottom:1rem;border-radius:0 0 var(--radius) var(--radius)}
+.site-title{text-align:center;margin:0;font-size:1.8rem;font-weight:600}
+.back-link{display:inline-block;margin-top:0.5rem;color:var(--accent);text-decoration:none}
+.back-link:hover{text-decoration:underline}
+
+/* Tarjetas principales */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem}
+.card{background:#fff;border:1px solid var(--border-color);border-radius:var(--radius);box-shadow:var(--shadow);text-align:center;padding:1rem;text-decoration:none;color:#000;transition:transform 0.2s,box-shadow 0.2s}
+.card:hover{transform:translateY(-5px);box-shadow:0 6px 18px rgba(0,0,0,0.1)}
+.card-img{width:100%;height:140px;object-fit:cover;border-radius:var(--radius);background:#e0e0e0;margin-bottom:0.5rem;border:1px solid #ddd}
+
+/* Páginas de detalle */
+.challenge-detail{background:#fff;border:1px solid var(--border-color);border-radius:var(--radius);box-shadow:var(--shadow);padding:1.5rem}
+.challenge-detail article{margin-bottom:1rem;padding:0.75rem;border-left:4px solid #d0e3ff;border-radius:8px;background:#f9fbff}
+.challenge-detail h3{margin-top:0;color:var(--accent)}
+.hero-img{width:100%;height:200px;border-radius:var(--radius);background:#ececec;object-fit:cover;border:1px solid #ddd;margin-bottom:1rem}
+
+.site-footer{text-align:center;padding:1rem 0;color:#666;font-size:0.9rem;border-top:1px solid var(--border-color);background:#fff;margin-top:2rem;border-radius:var(--radius) var(--radius) 0 0}
